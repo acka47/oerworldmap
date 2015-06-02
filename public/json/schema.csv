@@ -1,0 +1,13 @@
+resource, property, description, type, expected values, format
+Person, @id, The person's unique identifier, string, - ,
+Person, @type, The type of the resource., string, "Person", - 
+Person, email, An email account of the person., string, - , email
+Person, workLocation, A Place resource., Place, - , - 
+Place, @id, The person's unique identifier, string, - , -
+Place, @type, The type of the resource., string, "Place", -
+Place, geo location, A GeoCoordinates resource, GeoCoordinates, -, -
+Place, address, A PostalAddress resource, PostalAddress, -, -
+GeoCoordinates, @id, The person's unique identifier, string, - , -
+GeoCoordinates, @type, The type of the resource., string, "GeoCoordinates", -
+GeoCoordinates, latitude, The latitude using WGS84., number, - , -
+GeoCoordinates, longitude, The longitude using WGS84., number, - , -
